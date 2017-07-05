@@ -78,7 +78,7 @@ m = Number of Training Examples
 x's = "input" variable/features
 y's = "output" variable/"target" variable
 (x, y) = single training example
-(x<sup>i</sup>, y<sup>i</sup>) = ith training example i=1,2,3...
+(x<sub>i</sub>, y<sub>i</sub>) = ith training example i=1,2,3...
 
 ## Linear Regression Models
 
