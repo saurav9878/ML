@@ -94,4 +94,4 @@ Shorthand: h(x)
 ### Cost Function
 
 We can measure the accuracy of our hypothesis function by using a cost function.
-J (θ<sub>0</sub>, θ<sub>1</sub>) = ![](http://www.HostMath.com/Show.aspx?Code=%5Cfrac%7B1%7D%7B2m%7D%5Csum_%7Bi%3D1%7D%5Em(h(x_i)%20-%20y_i)%5E2)
+J (θ<sub>0</sub>, θ<sub>1</sub>) = ![](https://latex.codecogs.com/gif.latex?%5Cfrac%7B1%7D%7B2m%7D%5Csum_%7Bi%3D1%7D%5Em%28h%28x_i%29%20-%20y_i%29%5E2)
