@@ -43,7 +43,13 @@ It is a problem of identifying which category(out of a set of categories) an exa
 belongs to.
 e.g. Classify tumors as affected/unaffected. Another example could be classifying
 	handwritten digits into 0,1,2,3,4,5,6,7,8,9.
-	
+
+
+### When the target variable that we’re trying to predict is continuous, such as in our housing example, we call the learning problem a regression problem.
+
+###  When y can take on only a small number of discrete values (such as if, given the living area, we wanted to predict if a dwelling is a house or an apartment, say), we call it a classification problem.
+
+
 ## Unsupervised Learning
 
 1. It allows us to approach problems with little or no idea about what our results 
@@ -76,9 +82,16 @@ y's = "output" variable/"target" variable
 
 ## Linear Regression Models
 
-Training set is feed to Learning Algorithm and a function 'h' is mapped from x's
-to y's and this 'h' is called Hypothesis.
+Given a training set, to learn a function h : X → Y so that h(x) is a “good” 
+predictor for the corresponding value of y. and this 'h' is called Hypothesis.
 
 h<sub>θ</sub>(x) = θ<sub>0</sub> + θ<sub>1</sub>x
 
 Shorthand: h(x)
+
+θ - parameter
+
+### Cost Function
+
+We can measure the accuracy of our hypothesis function by using a cost function.
+J (θ<sub>0</sub>, θ<sub>1</sub>) = \frac{1, 2m}
