@@ -79,5 +79,5 @@ y's = "output" variable/"target" variable
 Training set is feed to Learning Algorithm and a function 'h' is mapped from x's
 to y's and this 'h' is called Hypothesis.
 
-h<sub>\theta</sub>(x) = \theta<sub>0</sub> + \theta<sub>1</sub>x
+h<sub>\(\theta)</sub>(x) = (\theta)<sub>0</sub> + (\theta)<sub>1</sub>x
 Shorthand: h(x)
